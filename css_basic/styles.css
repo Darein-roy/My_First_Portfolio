@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: aqua;
 }
 
 main {
@@ -12,9 +13,21 @@ main {
 article {
     flex: 2;
     overflow-y: auto;
+    background-color: antiquewhite;
 }
+
+table {
+    font-weight: bold;
+    
+}
+
 
 aside {
     flex: 1;
     overflow-y: auto;
+    background-color:darkcyan;
+}
+
+footer {
+    background-color: blueviolet;
 }
